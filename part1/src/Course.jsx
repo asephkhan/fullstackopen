@@ -6,10 +6,10 @@ const Course = ({course}) => {
      return (
             <div>
       <Title heading={course.name} />
-        <Part parts={course.parts}/>
+      <Part parts={course.parts}/>
       
 
-      {/*  <TotalExercises parts={course.parts}/>  */}
+      <TotalExercises parts={course.parts}/> 
     </div>
      )
 }
